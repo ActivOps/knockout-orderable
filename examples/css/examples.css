@@ -6,11 +6,19 @@ th a {
 	display: block;
 }
 
-.desc {
-	background: url(../img/desc.png) top right no-repeat;
+th.sorted.asc:before {
+    font-family: FontAwesome;
+    content: "\f160";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
 }
 
-.asc {
-	background: url(../img/asc.png) top right no-repeat;
+th.sorted.desc:before {
+    font-family: FontAwesome;
+    content: "\f161";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
 }
 
